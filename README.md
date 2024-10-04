@@ -21,10 +21,10 @@ Clone this repository:
 ## Usage
 Run the script from the command line, passing the cron string as a single argument:
     
-    python cron_parser.py "<cron_string>"
+    python3 cron_parser.py "<cron_string>"
 For example:
     
-    python cron_parser.py "*/15 0 1,15 * 1-5 /usr/bin/find"
+    python3 cron_parser.py "*/15 0 1,15 * 1-5 /usr/bin/find"
 Make sure to replace the cron expression and command as needed.
 
 
