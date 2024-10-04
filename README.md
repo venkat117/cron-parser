@@ -32,8 +32,9 @@ This is a command-line application that parses a cron string and expands each fi
      ├── cron_parser.py        # The main script for parsing the cron expression
      └── README.md             # Project documentation
 
-## Future Improvements
+Future Improvements
+Support for special cron strings like @yearly, @monthly, @daily, etc.
+Enhanced error handling to provide more detailed messages for invalid cron expressions.
+Additional functionality such as calculating the next run time based on the current time.
 
-    Support for special cron strings like @yearly, @monthly, @daily, etc.
-    Enhanced error handling to provide more detailed messages for invalid cron expressions.
-    Additional functionality such as calculating the next run time based on the current time.
+
