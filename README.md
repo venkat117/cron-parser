@@ -2,19 +2,32 @@
 
 This is a command-line application that parses a cron string and expands each field to show the times at which it will run.
 
+## Features
+- Expands cron fields including `*`, `*/step`, `range`, and `list`.
+- Provides output in a formatted table.
+- Supports simple command handling.
+
 ## Requirements
 
-    - Python3 3.x
+You will need **Python 3** to run this project. Install Python if it's not already installed.
+
+## Installation
+
+Clone this repository:
+
+    git clone https://github.com/your-username/cron-parser.git
+    cd cron-parser
 
 ## Usage
+To run the parser, use the following command:
 
-1. Run the script from the command line, passing the cron string as a single argument:
-
-        python cron_parser.py "<cron_string>"
-
-2. For example:
-
-        python cron_parser.py "*/15 0 1,15 * 1-5 /usr/bin/find"
+Run the script from the command line, passing the cron string as a single argument:
+    
+    python cron_parser.py "<cron_string>"
+For example:
+    
+    python cron_parser.py "*/15 0 1,15 * 1-5 /usr/bin/find"
+Make sure to replace the cron expression and command as needed.
 
 
 ## Output
