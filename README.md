@@ -15,12 +15,10 @@ You will need **Python 3** to run this project. Install Python if it's not alrea
 
 Clone this repository:
 
-    git clone https://github.com/your-username/cron-parser.git
+    git clone https://github.com/venkat117/cron-parser.git
     cd cron-parser
 
 ## Usage
-To run the parser, use the following command:
-
 Run the script from the command line, passing the cron string as a single argument:
     
     python cron_parser.py "<cron_string>"
@@ -32,7 +30,7 @@ Make sure to replace the cron expression and command as needed.
 
 ## Output
 
- The output is formatted as a table with the field name taking the first 14 columns and the times as a space-separated list following it.
+ The output is formatted as a table with the field name.
 
 ## Limitations
 
@@ -50,5 +48,7 @@ Make sure to replace the cron expression and command as needed.
 - Support for special cron strings like @yearly, @monthly, @daily, etc.
 - Enhanced error handling to provide more detailed messages for invalid cron expressions.
 - Additional functionality such as calculating the next run time based on the current time.
+- Human-readable translation of cron fields into sentences.
+- Build a graphical user interface (GUI) for easier usage.
 
 
