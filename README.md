@@ -8,6 +8,15 @@ This is a command-line application that parses a cron string and expands each fi
 
 ## Usage
 
+Usage
+Install the required packages:
+
+ pip install requests
+Run the script:
+
+ python crtsh_subdomains_status.py
+Replace the value of the domain_to_search variable in the script with the domain you want to search for subdomains.
+
 Run the script from the command line, passing the cron string as a single argument:
 
 python cron_parser.py "<cron_string>"
